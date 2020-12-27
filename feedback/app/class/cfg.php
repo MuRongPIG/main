@@ -1,0 +1,9 @@
+<?php
+error_reporting(0);
+session_start();
+date_default_timezone_set('PRC');
+define('KEY','ed586f'); 
+define('BASE_PATH',str_replace('\\','/',dirname(__FILE__))."/");
+define('ROOT_PATH',str_replace('app/class/','',BASE_PATH));
+define('DB',ROOT_PATH.'app/db/ad037c59b596.db');
+/*installed*/

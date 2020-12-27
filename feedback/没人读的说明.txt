@@ -1,0 +1,17 @@
+﻿运行环境：PHP>=5.4+PDO_SQLITE
+支持留言评论的吐槽系统
+前端使用bootstrap+jquery
+支持回复邮件提醒（需要支持socket+opensssl 默认使用的ssl，阿里云25端口是封的）
+初次运行会初始化，默认密码admin！
+ 
+调用代码：
+<script src="http://网址/app/class/ajax.php?act=new&id=10&p=30&r=http://网址/"></script>
+参数：
+id；留言条数
+p：留言内容长度截取
+r：留言板地址
+
+
+问题反馈：https://7alk.com
+官方网站：https://www.4jax.net/
+QQ群：5759588
